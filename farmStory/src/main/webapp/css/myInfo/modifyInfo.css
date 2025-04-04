@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px "Noto Sans KR";
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+.auth {
+    display: none;
+    margin-top: 6px;
+}
+
+.editPassBtn {
+    font-weight: 300;	
+    color: #FFFFFF;
+}
+button {cursor: pointer;}
+
+span {
+	margin-left:5px;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+header > div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header > div > * {
+    width: 980px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header .top > div {
+	position: relative;
+    float: right;
+    margin-top: 10px;
+    z-index: 5;
+}
+
+header article {
+    position: relative;
+}
+
+header > div:nth-child(2) {
+    width: 100%;
+    height: 85px;
+}
+
+header article > .logo {
+    position: absolute;
+    left: 390px;
+    top: 20px;
+}
+
+header article > .freeShipping {
+    position: absolute;
+    right: 0;
+    top: 59px;
+}
+
+header > div:nth-child(3) {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+header > div:nth-child(3) > ul {
+    position: relative;
+}
+
+header > div:nth-child(3) > ul > li {
+    width: 196px;
+    float: left;
+}
+
+header > div:nth-child(3) > ul > li > a > img {
+    display: block;
+}
+
+.head_badge {
+    position: absolute;
+    left: 295px;
+    top: -13px;
+}
+
+.main_container {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.sub_top_container {
+    position: relative;
+    height: 184px;
+    background-image: url(/farmStory/images/myinfo/myinfo_top_bg.jpg);
+}
+
+.sub_top_container > img {
+    position: absolute;
+    top: 137px;
+    left: 10px;
+}
+
+.main_container > section > aside {
+    background-image: url(/farmStory/images/sub_aside_bg_line.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 176px;
+    height: 650px;
+    float: left;
+}
+
+.main_container > section {
+    width: 100%;
+    height: auto;
+}
+
+.main_container > section > aside > div:nth-child(1) {
+    padding: 16px;
+}
+
+.main_container > section > aside > div:nth-child(2) {
+    position: relative;
+    width: 99%;
+    height: 233px;
+    background-image: url(/farmStory/images/sub_aside_bg_lnb.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.main_container > section > aside > div:nth-child(2) > a:nth-child(1) {
+    position: absolute;
+    top: 26px;
+}
+.main_container > section > aside > div:nth-child(2) > a:nth-child(2) {
+    position: absolute;
+    top: 61px;
+}
+.main_container > section > aside > div:nth-child(2) > a:nth-child(3) {
+    position: absolute;
+    top: 96px;
+}
+.main_container > section > article {
+    float: right;
+    width: 762px;
+    height: auto;
+    margin-left: 40px;
+    position: relative;
+}
+
+.main_container > section > article > div {
+    margin-bottom: 35px;
+}
+
+.main_container > section > article > div > nav {
+    position: relative;
+    width: 762px;
+    height: 72px;
+    border-bottom: 1px solid #c2c2c2;
+}
+.main_container > section > article > div > nav > img{
+    position: absolute;
+    top: 41px;
+}
+
+.main_container > section > article > .nav_bar > div {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    background-image: url(/farmStory/images/sub_page_nav_ico.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.main_container > section > article > .nav_bar > div > p {
+    color: #8c8c8c;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+/* table 스타일 */
+table {
+    display: block;
+    width: 762px;
+    height: auto;
+    border: 1px solid #111;
+    border-collapse: collapse;
+    margin-top: 7px;
+}
+
+.table_2 tr:nth-child(2) {
+    height: 72px;
+}
+.table_2 tr:nth-child(2) > td > p {
+    margin-bottom: 5px;
+}
+
+.my {
+    width: 75.2px;
+    height: 14px;
+    margin-top: 20px;
+}
+
+/* table의 tr, td 스타일 */
+table tr {
+    width: 761px;
+    border-bottom: 1px solid #E9E9E9;
+    height: 42.5px;
+}
+
+table tr:last-child {
+    border: none;
+}
+
+table td {
+    padding-left: 10px;
+    height: auto;
+}
+table input {
+    width: 164px;
+    height: 24px;
+    background: #F7F7F7;
+    border: 1px solid #E4EAEC;
+    padding-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.td_left {
+    width: 105px;
+    background: #F5F8F9;
+}
+
+table button {
+    width: 80px;
+    height: 20px;
+    background: #2E658A;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding-bottom: 2px;
+}
+
+.div_btn {
+    display: flex; 
+    align-items: center;
+}
+
+
+.button1 {
+    width: 58px;
+    height: 25px;
+    background: red;
+    color: #FFFFFF;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input {
+    width: 162px;
+    height: 17px;
+    top: 3.5px;
+    left: 1px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2px; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
+.btn1 > input {
+    width: 66px;
+    height: 35px;
+    margin-bottom: 10px;
+    border: 1px solid #bebebe;
+}
+.btn1 > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 42px;
+    border: 1px solid #bebebe;
+}
+
+.addr_td {
+    height: 105px;
+}
+
+.addr_td  > input {
+    margin-top: 3.6px;
+}
+
+.addr_input {
+    width: 362px;
+    height: 24px;
+}
+
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 130px;
+    box-sizing: border-box;
+}
+
+.footer_container {
+    width: 980px;
+    height: 120px;
+    border-top: 1px solid #D1CAB2;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.footer_img {
+    float: left;
+}
+
+.footer_p  {
+    float: right;
+    margin-top: 25px;
+}
+
+.footer_p p {
+    font-size: 10px;
+    line-height: 18px;
+    color: #585858;
+}
+
+.footer_p p:nth-child(2) {
+    float: left;
+    color: #888888;
+}
+.footer_p p:nth-child(3) {
+    float: right;
+    color: #888888;
+}
+
+
+
+

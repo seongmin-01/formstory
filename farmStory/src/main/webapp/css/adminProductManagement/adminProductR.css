@@ -1,0 +1,240 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    font: normal 12px "Noto Sans KR";
+}
+
+ul, ol {list-style: none;}
+.link {color: white;}
+a {text-align: none; color: #111;
+text-decoration: none;}
+input, textarea {outline: none;}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    width: 100%;
+}
+
+
+/* header */
+header {
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url(/farmStory/images/admin/admin_bg.jpg);
+}
+
+.hd_logo {
+    width: 170px;
+    height: 32px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+header > ul {
+    float: right;
+    width: 148.34px;
+    height: 14px;
+    margin-top: 13px;
+}
+
+header > ul >li {
+    float: left;
+    color: #FFFFFF;
+}
+
+/* -------------------------------------------------------------*/
+
+/* main */
+main {
+    display: flex;
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main_hd > a:nth-child(2) {
+    padding-right: 10px;
+}
+
+aside {
+    width: 176px;
+    height: 400px;
+}
+
+.heading {
+    width: 156px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #e5e5e5;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.heading_p {
+    padding-left: 20px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+
+.list {
+    width: 156px;
+    height: 234px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+.list > div {
+    margin-top: 15px;
+}
+
+.list > div > ul {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.list > div:nth-child(1) > ul >li {
+    margin-top: 5px;
+}
+
+
+section {
+    width: 804px;
+    height: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+section > nav {
+    font-size: 17px;
+    font-weight: bold; /* 굵게 설정 */
+}
+
+article {
+    width: 784px;
+    height: auto;
+    margin-top: 12px;
+}
+
+table {
+    width: 784px;
+    height: 133px;
+    border-top: 1px solid #333333;
+    border-collapse: collapse; /*셀 합치기*/
+    box-sizing: border-box;
+}
+
+form {
+    height: auto;
+    border-top: 3px solid #333333;
+}
+
+.table_tr {
+    width: 784px;
+    height: 43px;
+}
+
+.table_tr2 {
+    width: 784px;
+    height: 166px;
+}
+
+.table_tr3 {
+    width: 784px;
+    height: 61px;
+}
+
+.footerinput {
+    width: 157px;
+    height: 32px;
+}
+
+.radio > label:nth-child(2) {
+    margin-left: 15px;
+}
+
+.radio > label:nth-child(3) {
+    margin-left: 15px;
+}
+
+.radio > label:nth-child(4) {
+    margin-left: 15px;
+}
+
+.td_img > p {
+    margin-bottom: 2px;
+}
+
+.td_img > input {
+    margin-bottom: 7px;
+}
+
+td {
+    border-bottom: 1px dotted #999999;
+}
+
+.p_point {
+    padding-left: 5px;
+}
+
+.op {
+    width: 55px;
+    height: 20px;
+    border: 1px solid #767676;
+    background: #EFEFEF;
+    padding-left: 5px;
+}
+
+.submit {
+    width: 74px;
+    height: 31px;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    background: #EFEFEF;
+
+    margin-left: 13px;
+}
+
+.form-ft {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+
+/* -------------------------------------------------------------*/
+
+/* footer */
+footer {
+    position: static;
+    bottom: 0px;
+    width: 980px;
+    height: 41px;
+    margin: auto;
+    background: #353535;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+footer > p {
+    color: #FFFFFF;
+}
+
+footer > p:nth-child(1) {
+
+    font-size: 11.63px;
+}
+
+footer > p:nth-child(2) {
+
+    font-size: 11.25px;
+}
